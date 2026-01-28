@@ -1,7 +1,7 @@
 # Faça um programa que leia um numero de 0 a 9999 e mostre na tela cada um dos digitos separados.
 # aula09
 
-n = int(input('Informe um numero: '))
+n = int(input('Informe um número: '))
 
 u = n // 1 % 10 
 d = n // 10 % 10

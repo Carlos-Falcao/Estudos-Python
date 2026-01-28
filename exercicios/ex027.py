@@ -3,8 +3,8 @@
 
 nome = str(input('Digite seu nome completo: ')).strip()
 
-print(f'Seu primeiro nome e {nome.split()[0]}')
-print(f'Seu ultimo nome e {nome.split()[-1]}')
+print(f'Seu primeiro nome é \033[4;37m{nome.split()[0]}\033[m')
+print(f'Seu ultimo nome é \033[4;31m{nome.split()[-1]}\033[m')
 
 # OBS de possibilidades:
 
