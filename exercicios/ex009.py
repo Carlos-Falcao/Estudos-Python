@@ -12,3 +12,5 @@ for i in range(1, 11):
     print(f'{n} X {i:2} = {res}')
 
 print('-' * 13)
+
+# OBS: O Método para resolver esse ex era outra, o método utilizado é o mesmo do ex049.
